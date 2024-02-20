@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.1" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.lelen.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.teal_700"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="7"
+            column="12"
+            startOffset="244"
+            endLine="7"
+            endColumn="27"
+            endOffset="259"/>
+        <location id="R.color.purple_500"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="109"
+            endLine="4"
+            endColumn="29"
+            endOffset="126"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),white(U),back_color(U),teal_700(D),purple_700(U),purple_500(D),edt_back_color(U)],drawable[ic_send(U),ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],id[idTVQuestion(U),idTILQuery(U),etQuestion(U),txtResponse(U)],layout[activity_main(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],style[Theme_Material3_DayNight_NoActionBar(R),Theme_Lelen(U),Base_Theme_Lelen(U)],xml[data_extraction_rules(U),backup_rules(U)];b^d,12^5^f^4^9^a,13^c^b,14^c^b,17^18,18^16^1^7^2^3^0;;;"/>
+    </map>
+
+</incidents>

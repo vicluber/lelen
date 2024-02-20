@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.1" type="incidents">
+
+    <incident
+        id="ScrollViewSize"
+        severity="warning"
+        message="This LinearLayout should use `android:layout_height=&quot;wrap_content&quot;`">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="22"
+            column="13"
+            startOffset="813"
+            endLine="22"
+            endColumn="49"
+            endOffset="849"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Question&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="32"
+            column="17"
+            startOffset="1225"
+            endLine="32"
+            endColumn="40"
+            endOffset="1248"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Response&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="43"
+            column="17"
+            startOffset="1670"
+            endLine="43"
+            endColumn="40"
+            endOffset="1693"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter your query&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="57"
+            column="9"
+            startOffset="2150"
+            endLine="57"
+            endColumn="40"
+            endOffset="2181"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/lelen/MainActivity.kt"
+            line="57"
+            column="37"
+            startOffset="2053"
+            endLine="57"
+            endColumn="50"
+            endOffset="2066"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/back_color` with a theme that also paints a background (inferred theme is `@style/Theme.Lelen`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="6"
+            column="5"
+            startOffset="267"
+            endLine="6"
+            endColumn="43"
+            endOffset="305"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,7 @@
+#Sun Jan 21 12:39:31 CET 2024
+base.0=/home/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/home/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,0 +1,308 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e56cea4cf3952c02135e1a4bffcadb11/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/af836417d031696a84cfe63adf995d12/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6ef176c3c1ea4f0e02cb3d1494381db4/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/373265adacde09d5870f40897eb38b66/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/victorwillhuber/.gradle/caches/transforms-3/38863dce3cc44333c929b1133c8c4829/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dba9db7d409147c869d653697d211a4f/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/09191044836a59f9db08299f57ec194d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d43ee16574c4a1120e506a2f61e20ed8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/57a3d07f85b61318783715345569debe/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/560f95f5dfd5410c804727508dc1456c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6188ce56973348088ab98b73948540d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dd4bdf7136b1891aa0073ab685a4f6e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/511ef85342ac77d6daa577792693b7d8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/ef202acf083a76b459938f30f462dd92/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/cbfcd0e2b52f5c9f3fbd1490ecb072a2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/484422c5211f6058820ab71e512a9064/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6f1a8742f4468f9493053dfc2042ffdf/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/victorwillhuber/.gradle/caches/transforms-3/44e3363070a9472e76aff04a0204dde5/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/dde0399920a867ad2134bb9b9a00021f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/a65c7f7cb6b85ebbe3504d90012bce46/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/ab888bf52ae0a527fe9f1ef6f1fe4b34/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/b145a0ddbd76815e5c27e0cca2623e43/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e8b71d1dfd2913dc62e65351ab63d5ab/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/27be337a5d6689c035a3ed168a3046f5/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c43e71f87b8804c2690e7be73a381225/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/5b8e5c6eb97cb30401dad86c7f3ea2b9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b4af7a030c881066c52d4decbf3be437/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/559ed9c7519f9774f3baccfbc1a3ca66/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/14739dbcb843a0d96eb9b51f7bdd710f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/84c17eb1d80f870c9f08f772c492e6af/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8f1bcd4f9362c36a6c0b2b69068211d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c421e830beb35a03f962d20284e6901e/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8e70f6adb8c8129533d86188e7d8f313/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b92b0c89c3472fac5d01ad2b773a35a8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-30:19
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/14739dbcb843a0d96eb9b51f7bdd710f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/14739dbcb843a0d96eb9b51f7bdd710f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:16:9-43
+	android:dataExtractionRules
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:10:9-65
+activity#com.lelen.LanguageSelectionActivity
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:9-25:20
+	android:exported
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.lelen.MainActivity
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:26:9-29:20
+	android:exported
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:27:13-41
+uses-sdk
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e56cea4cf3952c02135e1a4bffcadb11/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e56cea4cf3952c02135e1a4bffcadb11/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/af836417d031696a84cfe63adf995d12/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/af836417d031696a84cfe63adf995d12/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6ef176c3c1ea4f0e02cb3d1494381db4/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6ef176c3c1ea4f0e02cb3d1494381db4/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/373265adacde09d5870f40897eb38b66/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/373265adacde09d5870f40897eb38b66/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/victorwillhuber/.gradle/caches/transforms-3/38863dce3cc44333c929b1133c8c4829/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/victorwillhuber/.gradle/caches/transforms-3/38863dce3cc44333c929b1133c8c4829/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dba9db7d409147c869d653697d211a4f/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dba9db7d409147c869d653697d211a4f/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/09191044836a59f9db08299f57ec194d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/09191044836a59f9db08299f57ec194d/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d43ee16574c4a1120e506a2f61e20ed8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d43ee16574c4a1120e506a2f61e20ed8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/57a3d07f85b61318783715345569debe/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/57a3d07f85b61318783715345569debe/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/560f95f5dfd5410c804727508dc1456c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/560f95f5dfd5410c804727508dc1456c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6188ce56973348088ab98b73948540d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6188ce56973348088ab98b73948540d6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dd4bdf7136b1891aa0073ab685a4f6e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/dd4bdf7136b1891aa0073ab685a4f6e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/511ef85342ac77d6daa577792693b7d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/511ef85342ac77d6daa577792693b7d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/ef202acf083a76b459938f30f462dd92/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/ef202acf083a76b459938f30f462dd92/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/cbfcd0e2b52f5c9f3fbd1490ecb072a2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/cbfcd0e2b52f5c9f3fbd1490ecb072a2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/484422c5211f6058820ab71e512a9064/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/484422c5211f6058820ab71e512a9064/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6f1a8742f4468f9493053dfc2042ffdf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/victorwillhuber/.gradle/caches/transforms-3/6f1a8742f4468f9493053dfc2042ffdf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/victorwillhuber/.gradle/caches/transforms-3/44e3363070a9472e76aff04a0204dde5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/victorwillhuber/.gradle/caches/transforms-3/44e3363070a9472e76aff04a0204dde5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/dde0399920a867ad2134bb9b9a00021f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/dde0399920a867ad2134bb9b9a00021f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/a65c7f7cb6b85ebbe3504d90012bce46/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/a65c7f7cb6b85ebbe3504d90012bce46/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/ab888bf52ae0a527fe9f1ef6f1fe4b34/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/ab888bf52ae0a527fe9f1ef6f1fe4b34/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/b145a0ddbd76815e5c27e0cca2623e43/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/b145a0ddbd76815e5c27e0cca2623e43/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e8b71d1dfd2913dc62e65351ab63d5ab/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e8b71d1dfd2913dc62e65351ab63d5ab/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/27be337a5d6689c035a3ed168a3046f5/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/27be337a5d6689c035a3ed168a3046f5/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c43e71f87b8804c2690e7be73a381225/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c43e71f87b8804c2690e7be73a381225/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/5b8e5c6eb97cb30401dad86c7f3ea2b9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/5b8e5c6eb97cb30401dad86c7f3ea2b9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b4af7a030c881066c52d4decbf3be437/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b4af7a030c881066c52d4decbf3be437/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/559ed9c7519f9774f3baccfbc1a3ca66/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/559ed9c7519f9774f3baccfbc1a3ca66/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/14739dbcb843a0d96eb9b51f7bdd710f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/14739dbcb843a0d96eb9b51f7bdd710f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/84c17eb1d80f870c9f08f772c492e6af/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/84c17eb1d80f870c9f08f772c492e6af/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8f1bcd4f9362c36a6c0b2b69068211d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8f1bcd4f9362c36a6c0b2b69068211d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c421e830beb35a03f962d20284e6901e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/c421e830beb35a03f962d20284e6901e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8e70f6adb8c8129533d86188e7d8f313/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/8e70f6adb8c8129533d86188e7d8f313/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b92b0c89c3472fac5d01ad2b773a35a8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/victorwillhuber/.gradle/caches/transforms-3/b92b0c89c3472fac5d01ad2b773a35a8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/victorwillhuber/.gradle/caches/transforms-3/54f07d7be947204e7ff9ed0eb3f77009/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/victorwillhuber/.gradle/caches/transforms-3/d780bbbff2b0cb3164815b78288ce5d3/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.lelen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.lelen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/3411dc2b2c8b3205fcc286a7ca11e6cf/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/victorwillhuber/.gradle/caches/transforms-3/0dc62593e85e7f43d1e49de47fd7de39/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

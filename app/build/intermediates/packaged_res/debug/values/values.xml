@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selection_options">
+        <item>German</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+    <color name="back_color">#363342</color>
+    <color name="black">#FF000000</color>
+    <color name="chat_message_text_color">#000000</color>
+    <color name="edt_back_color">#414051</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#3E3A4E</color>
+    <color name="purple_700">#363342</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="chat_message_margin_bottom">8dp</dimen>
+    <dimen name="chat_message_max_width">340dp</dimen>
+    <dimen name="chat_message_padding">12dp</dimen>
+    <dimen name="play_button_size">20dp</dimen>
+    <item name="message_id" type="id"/>
+    <string name="app_name">Lelen</string>
+    <string name="conversationalAssistant"/>
+    <string name="label_select_language">What language you want to practice?</string>
+    <string name="lets_practice">Lets practice!</string>
+    <string name="seconds_remaining">%1$d</string>
+    <string name="translationAndAlternativeAssistant"/>
+    <string name="translationAssistant"/>
+    <style name="Base.Theme.Lelen" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lelen" parent="Base.Theme.Lelen"/>
+</resources>

@@ -1,0 +1,97 @@
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/layout/activity_main.xml:22: Warning: This LinearLayout should use android:layout_height="wrap_content" [ScrollViewSize]
+            android:layout_height="match_parent"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ScrollViewSize":
+   ScrollView children must set their layout_width or layout_height attributes
+   to wrap_content rather than fill_parent or match_parent in the scrolling
+   dimension
+
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/layout/activity_main.xml:6: Warning: Possible overdraw: Root element paints background @color/back_color with a theme that also paints a background (inferred theme is @style/Theme.Lelen) [Overdraw]
+    android:background="@color/back_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/values/colors.xml:4: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#3E3A4E</color>
+           ~~~~~~~~~~~~~~~~~
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/values/colors.xml:7: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
+    <color name="teal_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/java/com/lelen/MainActivity.kt:57: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                txtResponse.text = "Please wait.."
+                                    ~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/layout/activity_main.xml:32: Warning: Hardcoded string "Question", should use @string resource [HardcodedText]
+                android:text="Question"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/layout/activity_main.xml:43: Warning: Hardcoded string "Response", should use @string resource [HardcodedText]
+                android:text="Response"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/home/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/layout/activity_main.xml:57: Warning: Hardcoded string "Enter your query", should use @string resource [HardcodedText]
+        android:hint="Enter your query"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 8 warnings

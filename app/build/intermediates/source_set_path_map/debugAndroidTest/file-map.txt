@@ -1,0 +1,6 @@
+com.lelen.test.app-core-1.5.0-0 /Users/victorwillhuber/.gradle/caches/transforms-3/be763187ef3e640bdbdb11576d35b498/transformed/core-1.5.0/res
+com.lelen.test.app-annotation-experimental-1.3.0-1 /Users/victorwillhuber/.gradle/caches/transforms-3/c43e71f87b8804c2690e7be73a381225/transformed/annotation-experimental-1.3.0/res
+com.lelen.test.app-androidTest-2 /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/generated/res/resValues/androidTest/debug
+com.lelen.test.app-mergeDebugAndroidTestResources-3 /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.lelen.test.app-mergeDebugAndroidTestResources-4 /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.lelen.test.app-merged_res-5 /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/merged_res/debugAndroidTest

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lelen.app-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/victorwillhuber/.gradle/caches/transforms-3/af836417d031696a84cfe63adf995d12/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

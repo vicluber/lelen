@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_button_icon.png.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_button_icon.png"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_round_button_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/round_button_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lelen.app-merged_res-31:/drawable_ic_play.xml.flat",
+        "source": "com.lelen.app-main-33:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_send.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/layout_message_layout.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/layout/message_layout.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_chat_message_user_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/chat_message_user_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/layout_activity_language_selection.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/layout/activity_language_selection.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_chat_message_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/chat_message_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_down_icon.png.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_down_icon.png"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_spinner_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_chat_message_assistant_background.xml.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/chat_message_assistant_background.xml"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/drawable_ic_play_icon.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/drawable/ic_play_icon.webp"
+    },
+    {
+        "merged": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/victorwillhuber/.gradle/daemon/8.2/com.lelen.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]
