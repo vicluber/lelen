@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_message_padding">12dp</dimen>
+    <dimen name="chat_message_margin_bottom">8dp</dimen>
+    <dimen name="chat_message_max_width">340dp</dimen>
+    <dimen name="play_button_size">20dp</dimen>
+</resources>
