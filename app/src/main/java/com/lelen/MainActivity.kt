@@ -7,6 +7,8 @@ import android.os.CountDownTimer
 import android.view.Gravity
 import android.view.View
 import android.view.inputmethod.EditorInfo
+import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.material.textfield.TextInputEditText
 import android.widget.LinearLayout
@@ -62,15 +64,10 @@ class MainActivity : AppCompatActivity() {
 
 
         setContentView(R.layout.activity_main)
-        val toast = Toast.makeText(applicationContext, "Say something clever.", Toast.LENGTH_SHORT)
-        toast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 100) // Adjust the Y offset to suit
-        toast.show()
 
-        drawMessage(Message(role = "assistant", content = "Say something, but make it count, because you can send just one message per minute. Learning takes time. I will answer you in ${selectedLanguage} and you will have a minute to really read and understand what I said. Tap over the messages to read a translation."), null)
-        val audioFilePath = "${externalCacheDir?.absolutePath}/speech.mp3"
-        getSpeechResponse("Say something, but make it count, because you can send just one message per minute. Learning takes time. I will answer you in ${selectedLanguage} and you will have a minute to really read and understand what I said. Tap over the messages to read a translation.", audioFilePath) {
-            playAudio(audioFilePath)
-        }
+
+        // drawMessage(Message(role = "assistant", content = "Say something, but make it count, because you can send just one message per minute. Learning takes time. I will answer you in ${selectedLanguage} and you will have a minute to really read and understand what I said. Tap over the messages to read a translation."), null)
+
         etQuestion=findViewById<TextInputEditText>(R.id.etQuestion)
 
         etQuestion.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
@@ -83,15 +80,16 @@ class MainActivity : AppCompatActivity() {
                     //chatRequestTranslationAndAlternative()
                     chatRequestTranslationAndAlternative.messages[2] = Message(role = "user", content = question)
                     chatService.getResponse(chatRequestTranslationAndAlternative) { translationAndAlternativeResult ->
-                        runOnUiThread {
-                            translationAndAlternativeResult.onSuccess { response ->
-                                val translation = Message(role = "user", content = response.content)
-                                drawMessage(userMessage, translation)
-                            }
-                            translationAndAlternativeResult.onFailure { exception ->
+                        translationAndAlternativeResult.onSuccess { response ->
+                            val translation = Message(role = "user", content = response.content)
+                            drawMessage(userMessage, translation)
+                        }
+                        translationAndAlternativeResult.onFailure { exception ->
+                            runOnUiThread {
                                 Toast.makeText(this@MainActivity, "Wait a minute", Toast.LENGTH_LONG).show()
                             }
                         }
+
 
                         chatService.getResponse(chatRequestConversation) { conversationResult ->
                             runOnUiThread {
@@ -105,7 +103,9 @@ class MainActivity : AppCompatActivity() {
                                             drawMessage(assistantMessage, translated)
                                         }
                                         result.onFailure { exception ->
-                                            Toast.makeText(this@MainActivity, "Wait a minute", Toast.LENGTH_LONG).show()
+                                            runOnUiThread {
+                                                Toast.makeText(this@MainActivity, "Wait a minute", Toast.LENGTH_LONG).show()
+                                            }
                                         }
                                     }
                                 }
@@ -182,6 +182,35 @@ class MainActivity : AppCompatActivity() {
     fun drawMessage(message: Message, translation: Message?) {
         // Adding message to UI
         runOnUiThread {
+            // Create an ImageView
+            val profileThumbnail = ImageView(this@MainActivity)
+
+            // Set an image resource
+            profileThumbnail.setImageResource(R.drawable.ic_launcher) // replace 'your_image_name' with your image's name without the extension
+
+            // Create an ImageButton
+            val playButton = ImageView(this@MainActivity)
+
+            // Set an image resource for the button
+            playButton.setImageResource(R.drawable.ic_play) // replace 'your_image_name' with your image's name without the extension
+
+            val translateButton = ImageView(this@MainActivity)
+            translateButton.setImageResource(R.drawable.ic_translate)
+
+            // Optionally, set layout parameters for the button
+            // imageButton.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT)
+
+            // Set padding, if needed
+            // imageButton.setPadding(16, 16, 16, 16) // values are in pixels
+
+            // Add a click listener for the button, if needed
+            playButton.setOnClickListener {
+                val audioFilePath = "${externalCacheDir?.absolutePath}/speech.mp3"
+                getSpeechResponse(message.content, audioFilePath) {
+                    playAudio(audioFilePath)
+                }
+            }
+
             // Create a new LinearLayout to contain the TextView and Icon
             val messageContainer = LinearLayout(this@MainActivity)
             messageContainer.orientation = LinearLayout.HORIZONTAL
@@ -198,9 +227,6 @@ class MainActivity : AppCompatActivity() {
             // Set text color
             newTextView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.chat_message_text_color))
 
-            // Set maxWidth
-            val maxWidthDp = resources.getDimensionPixelSize(R.dimen.chat_message_max_width)
-            newTextView.maxWidth = maxWidthDp
 
             // Set layout parameters with bottom margin
             var layoutParams = LinearLayout.LayoutParams(
@@ -232,9 +258,19 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
+            translateButton.setOnClickListener {
+                if (translation != null) {
+                    translate(newTextView, translation)
+                }
+            }
+
             // Add the messageContainer to llChatHistory
             val llChatHistory = findViewById<LinearLayout>(R.id.llChatHistory)
+            // llChatHistory.addView(profileThumbnail)
             llChatHistory.addView(messageContainer)
+            llChatHistory.addView(playButton)
+            llChatHistory.addView(translateButton)
+
             llChatHistory.post {
                 val scrollView = findViewById<ScrollView>(R.id.scrollView2)
                 scrollView.fullScroll(ScrollView.FOCUS_DOWN)

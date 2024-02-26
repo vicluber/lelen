@@ -30,7 +30,13 @@
                 android:layout_height="match_parent"
                 android:id="@+id/llChatHistory"
                 android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/message_container">
 
+                </LinearLayout>
             </LinearLayout>
 
         </ScrollView>
