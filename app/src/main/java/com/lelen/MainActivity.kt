@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         selectedLanguage = intent.getStringExtra("selectedValue") ?: "Default Value"
         chatRequestConversation = ChatRequest(
             messages = mutableListOf(
-                Message(role = "system", content = "You are gonna act as a ${selectedLanguage} teacher who chats with me just for me to learn. So it doesn't matter which language I use you will respond accordingly but in ${selectedLanguage}, for example, if I ask you how to say something in ${selectedLanguage} always reply in ${selectedLanguage} don't use the language I use, always ${selectedLanguage}. No matter what I say, never change the language, ALWAYS speak ${selectedLanguage} with me. If I ask you to speak another language just tell me that is for my good that you will just reply in ${selectedLanguage}.\n"),
+                Message(role = "system", content = "You are gonna act as a ${selectedLanguage} teacher who chats with me just for me to learn. So it doesn't matter which language I use you will respond accordingly but in ${selectedLanguage}, for example, if I ask you how to say something in ${selectedLanguage} always reply in ${selectedLanguage} don't use the language I use, always ${selectedLanguage}. No matter what I say, never change the language, ALWAYS speak ${selectedLanguage} with me. If I ask you to speak another language just tell me that is for my good that you will just reply in ${selectedLanguage}.\n I'm also not good in conversation making so if I don't ask anything you will propose easy topics of conversations."),
                 Message(role = "assistant", content = "Of course")
             ),
             model = CHATGPT_MODEL
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         )
         chatRequestTranslation = ChatRequest(
             messages = mutableListOf(
-                Message(role = "system", content = "You are gonna translate to English what I say in this structure 'Translation: the translated phrase'"),
+                Message(role = "system", content = "You are gonna translate to English what I say in this structure 'the translated phrase' so nothing more than the translation"),
                 Message(role = "assistant", content = "Of course, go ahead and tell me what you'd like to translate into ${selectedLanguage}."),
                 Message(role = "user", content = "Just a placeholder")
             ),
@@ -186,16 +186,7 @@ class MainActivity : AppCompatActivity() {
             val profileThumbnail = ImageView(this@MainActivity)
 
             // Set an image resource
-            profileThumbnail.setImageResource(R.drawable.ic_launcher) // replace 'your_image_name' with your image's name without the extension
-
-            // Create an ImageButton
-            val playButton = ImageView(this@MainActivity)
-
-            // Set an image resource for the button
-            playButton.setImageResource(R.drawable.ic_play) // replace 'your_image_name' with your image's name without the extension
-
-            val translateButton = ImageView(this@MainActivity)
-            translateButton.setImageResource(R.drawable.ic_translate)
+            profileThumbnail.setImageResource(R.drawable.bot) // replace 'your_image_name' with your image's name without the extension
 
             // Optionally, set layout parameters for the button
             // imageButton.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT)
@@ -203,17 +194,13 @@ class MainActivity : AppCompatActivity() {
             // Set padding, if needed
             // imageButton.setPadding(16, 16, 16, 16) // values are in pixels
 
-            // Add a click listener for the button, if needed
-            playButton.setOnClickListener {
-                val audioFilePath = "${externalCacheDir?.absolutePath}/speech.mp3"
-                getSpeechResponse(message.content, audioFilePath) {
-                    playAudio(audioFilePath)
-                }
-            }
+
 
             // Create a new LinearLayout to contain the TextView and Icon
             val messageContainer = LinearLayout(this@MainActivity)
             messageContainer.orientation = LinearLayout.HORIZONTAL
+            val container = LinearLayout(this@MainActivity)
+            container.orientation = LinearLayout.HORIZONTAL
 
             // Create a new TextView to display the response
             val newTextView = TextView(this@MainActivity)
@@ -227,27 +214,44 @@ class MainActivity : AppCompatActivity() {
             // Set text color
             newTextView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.chat_message_text_color))
 
+            // Create an ImageButton
+            val playButton = ImageView(this@MainActivity)
+            // Set an image resource for the button
+            playButton.setImageResource(R.drawable.ic_play)
+            val translateButton = ImageView(this@MainActivity)
+            translateButton.setImageResource(R.drawable.ic_translate)
 
-            // Set layout parameters with bottom margin
-            var layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            )
-            layoutParams.setMargins(8, 0, 8, resources.getDimensionPixelSize(R.dimen.chat_message_margin_bottom))
-            newTextView.layoutParams = layoutParams
+             // Adding the TextView to the container
 
-            // Adding the TextView to the container
-            messageContainer.addView(newTextView)
-
+            container.addView(playButton)
+            container.addView(translateButton)
             if (message.role == "assistant") {
                 // Set message bubble background for assistant
+                profileThumbnail.setPadding(0, 0, paddingDp, 0)
+                messageContainer.addView(profileThumbnail)
+                messageContainer.addView(newTextView)
                 newTextView.setBackgroundResource(R.drawable.chat_message_assistant_background)
-                messageContainer.gravity = Gravity.START
+                playButton.setPadding(0, paddingDp, paddingDp, paddingDp)
+                translateButton.setPadding(0, paddingDp, paddingDp, paddingDp)
 
+                messageContainer.gravity = Gravity.START
+                container.gravity = Gravity.START
             } else if (message.role == "user") {
                 // Set message bubble background for user
                 newTextView.setBackgroundResource(R.drawable.chat_message_user_background)
+                messageContainer.addView(newTextView)
+                playButton.setPadding(paddingDp, paddingDp, 0, paddingDp)
+                translateButton.setPadding(paddingDp, paddingDp, 0, paddingDp)
                 messageContainer.gravity = Gravity.END
+                container.gravity = Gravity.END
+            }
+
+            // Add a click listener for the button, if needed
+            playButton.setOnClickListener {
+                val audioFilePath = "${externalCacheDir?.absolutePath}/speech.mp3"
+                getSpeechResponse(message.content, audioFilePath) {
+                    playAudio(audioFilePath)
+                }
             }
 
             newTextView.setTag(R.id.message_id, message)
@@ -266,11 +270,8 @@ class MainActivity : AppCompatActivity() {
 
             // Add the messageContainer to llChatHistory
             val llChatHistory = findViewById<LinearLayout>(R.id.llChatHistory)
-            // llChatHistory.addView(profileThumbnail)
             llChatHistory.addView(messageContainer)
-            llChatHistory.addView(playButton)
-            llChatHistory.addView(translateButton)
-
+            llChatHistory.addView(container)
             llChatHistory.post {
                 val scrollView = findViewById<ScrollView>(R.id.scrollView2)
                 scrollView.fullScroll(ScrollView.FOCUS_DOWN)

@@ -15,6 +15,7 @@ dimen chat_message_margin_bottom
 dimen chat_message_max_width
 dimen chat_message_padding
 dimen play_button_size
+drawable bot
 drawable chat_message_assistant_background
 drawable chat_message_user_background
 drawable ic_down_icon
@@ -28,6 +29,7 @@ drawable ic_translate
 drawable spinner_background
 id bottomContainer
 id btnSelect
+id container
 id etQuestion
 id idTILQuery
 id llChatHistory

@@ -37,6 +37,13 @@
                     android:id="@+id/message_container">
 
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/container">
+
+                </LinearLayout>
             </LinearLayout>
 
         </ScrollView>

@@ -1,4 +1,4 @@
-#Mon Feb 26 09:37:50 ART 2024
+#Tue Feb 27 18:20:35 ART 2024
 base.0=/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
