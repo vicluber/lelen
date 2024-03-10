@@ -3855,7 +3855,6 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-string conversationalAssistant
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3863,6 +3862,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string inputMessageFontSize
 string item_view_role_description
 string label_select_language
 string lets_practice
@@ -3979,8 +3979,6 @@ string seconds_remaining
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
-string translationAndAlternativeAssistant
-string translationAssistant
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -46,12 +46,10 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
-string conversationalAssistant
+string inputMessageFontSize
 string label_select_language
 string lets_practice
 string seconds_remaining
-string translationAndAlternativeAssistant
-string translationAssistant
 style Base.Theme.Lelen
 style Theme.Lelen
 xml backup_rules

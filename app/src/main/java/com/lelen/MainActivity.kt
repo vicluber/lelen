@@ -3,7 +3,7 @@ package com.lelen
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.CountDownTimer
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.view.inputmethod.EditorInfo
@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var chatRequestConversation : ChatRequest
     private lateinit var chatRequestTranslationAndAlternative : ChatRequest
     private lateinit var chatRequestTranslation : ChatRequest
-    private var timeRemaining: Long = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         selectedLanguage = intent.getStringExtra("selectedValue") ?: "Default Value"
@@ -46,8 +45,7 @@ class MainActivity : AppCompatActivity() {
         )
         chatRequestTranslationAndAlternative = ChatRequest(
             messages = mutableListOf(
-                //Message(role = "system", content = "You are gonna translate to ${selectedLanguage} what I say and if is not a colloquial phrase or people in a country that speaks that language say it different you will offer an alternative phrase in this structure 'Translation: the translated phrase - Alternative: an alternative phrase'"),
-                Message(role = "system", content = "If I say something in ${selectedLanguage} you will make a correction and offer an alternative in this structure 'Correction: the correct phrase - Alternative: an alternative phrase for the same meaning' and if I say something in any other language you will translate that to ${selectedLanguage} and also offer an alternative in this structure 'Translation: the translated phrase - Alternative: an alternative phrase for the same meaning'"),
+                Message(role = "system", content = "If I say something in ${selectedLanguage} you will make a correction if it needs one and offer an alternative in this structure 'Correction: the correct phrase - Alternative: an alternative phrase for the same meaning' and if I say something in any other language than ${selectedLanguage} you will translate that to ${selectedLanguage} but only if I say something in other language that is not ${selectedLanguage}"),
                 Message(role = "assistant", content = "Of course, go ahead and tell me what you'd like to translate into ${selectedLanguage}."),
                 Message(role = "user", content = "Just a placeholder")
             ),
@@ -65,16 +63,12 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-
-        // drawMessage(Message(role = "assistant", content = "Say something, but make it count, because you can send just one message per minute. Learning takes time. I will answer you in ${selectedLanguage} and you will have a minute to really read and understand what I said. Tap over the messages to read a translation."), null)
-
         etQuestion=findViewById<TextInputEditText>(R.id.etQuestion)
 
         etQuestion.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
             if (actionId == EditorInfo.IME_ACTION_SEND) {
                 val question = etQuestion.text.toString().trim()
-                if(question.isNotEmpty() && timeRemaining == 0L){
-                    startCountdownTimer()
+                if(question.isNotEmpty()){
                     val userMessage = Message(role = "user", content = question)
                     addMessageToConversationThread(userMessage)
                     //chatRequestTranslationAndAlternative()
@@ -83,6 +77,7 @@ class MainActivity : AppCompatActivity() {
                         translationAndAlternativeResult.onSuccess { response ->
                             val translation = Message(role = "user", content = response.content)
                             drawMessage(userMessage, translation)
+                            Log.v("OpenAI response", response.toString())
                         }
                         translationAndAlternativeResult.onFailure { exception ->
                             runOnUiThread {
@@ -101,6 +96,7 @@ class MainActivity : AppCompatActivity() {
                                         result.onSuccess { translateResponse ->
                                             val translated = Message(role = "user", content = translateResponse.content)
                                             drawMessage(assistantMessage, translated)
+                                            Log.v("OpenAI response", translateResponse.toString())
                                         }
                                         result.onFailure { exception ->
                                             runOnUiThread {
@@ -150,26 +146,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        mediaPlayer.release() // Release the MediaPlayer when the activity is destroyed
-    }
-    private fun startCountdownTimer() {
-        val timerTextView = findViewById<TextView>(R.id.tvCountdownTimer)
-        timerTextView.visibility = View.VISIBLE // Make the TextView visible
-        timeRemaining = 60000 // Reset timer to full duration when starting
-        object : CountDownTimer(timeRemaining, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                timeRemaining = millisUntilFinished
-                val secondsRemaining = millisUntilFinished / 1000
-                timerTextView.text = getString(R.string.seconds_remaining, secondsRemaining)
-            }
-
-            override fun onFinish() {
-                timerTextView.text = "0"
-                timerTextView.visibility = View.GONE
-                timeRemaining = 0 // Ensure timeRemaining reflects the timer has finished
-                // Optionally hide the TextView again or leave it visible
-            }
-        }.start()
+        if (::mediaPlayer.isInitialized) {
+            mediaPlayer.release() // Release the MediaPlayer if it has been initialized
+        }
     }
 
     fun addMessageToConversationThread(message: Message){

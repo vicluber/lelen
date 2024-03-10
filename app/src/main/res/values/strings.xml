@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Lelen</string>
     <string-array name="selection_options">
+        <item>English</item>
         <item>German</item>
         <item>Spanish</item>
         <item>French</item>
@@ -8,7 +9,5 @@
     <string name="lets_practice">Lets practice!</string>
     <string name="label_select_language">What language you want to practice?</string>
     <string name="seconds_remaining">%1$d</string>
-    <string name="conversationalAssistant"></string>
-    <string name="translationAssistant"></string>
-    <string name="translationAndAlternativeAssistant"></string>
+    <string name="inputMessageFontSize">60</string>
 </resources>

@@ -27,7 +27,7 @@
 18-->[androidx.core:core:1.12.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f6b8ac20200a65d546319215981bb1c1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-30:19
+20-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-31:19
 21        android:allowBackup="true"
 21-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,32 +46,33 @@
 29-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:14:9-54
 30        android:supportsRtl="true"
 30-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:15:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.Lelen" >
-32-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:16:9-43
-33        <activity
-33-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:9-25:20
-34            android:name="com.lelen.LanguageSelectionActivity"
-34-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:19-60
-35            android:exported="true" >
-35-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:19:13-36
-36            <intent-filter>
-36-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:20:13-24:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:17-69
-37-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:17-77
-39-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:26:9-29:20
-43            android:name="com.lelen.MainActivity"
-43-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:27:13-41
-44            android:exported="true" >
-44-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:28:13-36
+31        android:theme="@style/Theme.Lelen" >
+31-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:16:9-43
+32        <activity
+32-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:9-25:20
+33            android:name="com.lelen.LanguageSelectionActivity"
+33-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:18:19-60
+34            android:exported="true" >
+34-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:19:13-36
+35            <intent-filter>
+35-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:17-69
+36-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:17-77
+38-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:26:9-30:20
+42            android:name="com.lelen.MainActivity"
+42-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:27:13-41
+43            android:exported="true"
+43-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:29:13-36
+44            android:screenOrientation="portrait" >
+44-->/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:28:13-49
 45        </activity>
 46
 47        <provider

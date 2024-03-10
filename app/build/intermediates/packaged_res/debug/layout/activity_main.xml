@@ -19,15 +19,14 @@
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@id/idTILQuery"
-            android:layout_alignParentTop="true"
             android:padding="5dp"
             tools:layout_editor_absoluteX="-35dp"
-            tools:layout_editor_absoluteY="5dp">
+            tools:layout_editor_absoluteY="5dp"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/llChatHistory"
                 android:orientation="vertical">
                 <LinearLayout
@@ -58,7 +57,8 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:baselineAligned="false">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/idTILQuery"
@@ -94,7 +94,7 @@
         android:layout_marginStart="320dp"
         android:layout_marginBottom="10dp"
         android:visibility="gone"
-        android:text="60"
+        android:text="@string/inputMessageFontSize"
         android:textColor="#DBA2F4"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/victorwillhuber/.gradle/caches/transforms-3/e56cea4cf3952c02135e1a4bffcadb11/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -64,8 +64,8 @@ ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/Andro
 	android:name
 		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-30:19
-INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-30:19
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-31:19
+INJECTED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:8:5-31:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/victorwillhuber/.gradle/caches/transforms-3/f3566f0e45d60045d50cb858a551288f/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/victorwillhuber/.gradle/caches/transforms-3/b796b9203bcbebd7625417203b1c6919/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -121,9 +121,11 @@ ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/Andro
 	android:name
 		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.lelen.MainActivity
-ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:26:9-29:20
+ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:26:9-30:20
+	android:screenOrientation
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:28:13-49
 	android:exported
-		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:29:13-36
 	android:name
 		ADDED from /Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/AndroidManifest.xml:27:13-41
 uses-sdk

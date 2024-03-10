@@ -21,12 +21,10 @@
     <dimen name="play_button_size">20dp</dimen>
     <item name="message_id" type="id"/>
     <string name="app_name">Lelen</string>
-    <string name="conversationalAssistant"/>
+    <string name="inputMessageFontSize">60</string>
     <string name="label_select_language">What language you want to practice?</string>
     <string name="lets_practice">Lets practice!</string>
     <string name="seconds_remaining">%1$d</string>
-    <string name="translationAndAlternativeAssistant"/>
-    <string name="translationAssistant"/>
     <style name="Base.Theme.Lelen" parent="Theme.Material3.DayNight.NoActionBar">
         
         
