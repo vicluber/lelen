@@ -17,6 +17,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.lelen.Utils.CHATGPT_MODEL
 import okhttp3.*
+import java.util.Locale
 import java.util.concurrent.TimeUnit
 
 
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var etQuestion: TextInputEditText
     private lateinit var mediaPlayer: MediaPlayer
     private lateinit var selectedLanguage: String
+    private lateinit var languageDisplayNameInEnglish: String
     private val chatService = ChatService(client)
     private lateinit var chatRequestConversation : ChatRequest
     private lateinit var chatRequestTranslationAndAlternative : ChatRequest
@@ -36,6 +38,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         selectedLanguage = intent.getStringExtra("selectedValue") ?: "Default Value"
+        val locale = Locale.getDefault()
+        languageDisplayNameInEnglish = Locale(locale.language, locale.country).getDisplayLanguage(Locale.ENGLISH)
         chatRequestConversation = ChatRequest(
             messages = mutableListOf(
                 Message(role = "system", content = "You are gonna act as a ${selectedLanguage} teacher who chats with me just for me to learn. So it doesn't matter which language I use you will respond accordingly but in ${selectedLanguage}, for example, if I ask you how to say something in ${selectedLanguage} always reply in ${selectedLanguage} don't use the language I use, always ${selectedLanguage}. No matter what I say, never change the language, ALWAYS speak ${selectedLanguage} with me. If I ask you to speak another language just tell me that is for my good that you will just reply in ${selectedLanguage}.\n I'm also not good in conversation making so if I don't ask anything you will propose easy topics of conversations."),
@@ -45,15 +49,15 @@ class MainActivity : AppCompatActivity() {
         )
         chatRequestTranslationAndAlternative = ChatRequest(
             messages = mutableListOf(
-                Message(role = "system", content = "If I say something in ${selectedLanguage} you will make a correction if it needs one and offer an alternative in this structure 'Correction: the correct phrase - Alternative: an alternative phrase for the same meaning' and if I say something in any other language than ${selectedLanguage} you will translate that to ${selectedLanguage} but only if I say something in other language that is not ${selectedLanguage}"),
-                Message(role = "assistant", content = "Of course, go ahead and tell me what you'd like to translate into ${selectedLanguage}."),
+                Message(role = "system", content = "If I say something in ${selectedLanguage} you will make a correction if it needs one and offer an alternative in this structure 'Correction: the correct phrase - Alternative: an alternative phrase for the same meaning' and if I say something in any other language than ${selectedLanguage} you will translate that to ${selectedLanguage} but only if I say something in other language than ${selectedLanguage}"),
+                Message(role = "assistant", content = "Of course"),
                 Message(role = "user", content = "Just a placeholder")
             ),
             model = CHATGPT_MODEL
         )
         chatRequestTranslation = ChatRequest(
             messages = mutableListOf(
-                Message(role = "system", content = "You are gonna translate to English what I say in this structure 'the translated phrase' so nothing more than the translation"),
+                Message(role = "system", content = "You are gonna translate to ${languageDisplayNameInEnglish} what I say in this structure 'the translated phrase' so nothing more than the translation"),
                 Message(role = "assistant", content = "Of course, go ahead and tell me what you'd like to translate into ${selectedLanguage}."),
                 Message(role = "user", content = "Just a placeholder")
             ),

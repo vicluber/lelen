@@ -15,6 +15,7 @@
         
         
     </style><style name="Theme.Lelen" parent="Base.Theme.Lelen"/></file><file path="/Users/victorwillhuber/AndroidStudioProjects/Lelen/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">Lelen</string><string-array name="selection_options">
+        <item>English</item>
         <item>German</item>
         <item>Spanish</item>
         <item>French</item>
